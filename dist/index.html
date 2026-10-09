@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QFWeatherPro — лицензия и легальные варианты</title>
+<meta name="description" content="Почему QFWeatherPro работает только 30 дней и как пользоваться погодными приложениями легально.">
+<style>
+  :root { --bg:#0b1220; --card:#151f33; --accent:#38bdf8; --accent2:#818cf8; --text:#e8eef7; --muted:#9aa8c0; --ok:#34d399; --warn:#fbbf24; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; background: radial-gradient(1200px 600px at 20% -10%, #1e3a5f 0%, var(--bg) 55%) fixed, var(--bg); color: var(--text); line-height:1.6; }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 24px 20px 64px; }
+  header.hero { background: linear-gradient(135deg, #0ea5e9 0%, #6366f1 60%, #8b5cf6 100%); border-radius: 20px; padding: 36px 28px; margin-top: 12px; color: white; box-shadow: 0 12px 40px rgba(56,189,248,.25); }
+  header.hero h1 { margin: 0 0 8px; font-size: clamp(26px, 4vw, 40px); line-height:1.15; }
+  header.hero p { margin: 0; opacity:.92; font-size: clamp(15px, 2vw, 18px); }
+  .badge { display:inline-block; background: rgba(255,255,255,.18); border:1px solid rgba(255,255,255,.35); padding:4px 12px; border-radius:999px; font-size:13px; margin-bottom:14px; }
+  .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:16px; margin-top:20px; }
+  .card { background: var(--card); border:1px solid #26334d; border-radius:16px; padding:20px; }
+  .card h2, .card h3 { margin-top:0; }
+  .card h2 { font-size:20px; }
+  .pill { display:inline-block; font-size:12px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; padding:4px 10px; border-radius:999px; margin-bottom:10px; }
+  .pill.ok { background: rgba(52,211,153,.15); color: var(--ok); border:1px solid rgba(52,211,153,.4); }
+  .pill.warn { background: rgba(251,191,36,.12); color: var(--warn); border:1px solid rgba(251,191,36,.4); }
+  .pill.info { background: rgba(56,189,248,.12); color: var(--accent); border:1px solid rgba(56,189,248,.4); }
+  a { color: var(--accent); }
+  .steps { counter-reset: s; padding:0; list-style:none; }
+  .steps li { background: var(--card); border:1px solid #26334d; border-radius:12px; padding:14px 14px 14px 52px; margin:10px 0; position:relative; }
+  .steps li::before { counter-increment: s; content: counter(s); position:absolute; left:14px; top:14px; width:28px; height:28px; border-radius:50%; background: var(--accent); color:#06283a; font-weight:800; display:flex; align-items:center; justify-content:center; }
+  code { background:#0a0f1c; border:1px solid #26334d; padding:2px 6px; border-radius:6px; font-size:.92em; }
+  footer { margin-top:28px; color: var(--muted); font-size:14px; border-top:1px solid #26334d; padding-top:16px; }
+  .notice { background: rgba(251,191,36,.08); border:1px solid rgba(251,191,36,.35); border-radius:12px; padding:14px 16px; margin-top:20px; }
+  .cta { display:flex; flex-wrap:wrap; gap:10px; margin-top:16px; }
+  .btn { display:inline-block; padding:10px 18px; border-radius:10px; text-decoration:none; font-weight:700; }
+  .btn.primary { background:white; color:#0b1220; }
+  .btn.ghost { border:1px solid #3b4c6b; color: var(--text); }
+  @media (max-width:480px){ header.hero{padding:26px 20px} .wrap{padding:16px 14px 48px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <span class="badge">⛅ QFWeatherPro v1.37 • информация о лицензии</span>
+    <h1>Почему приложение работает только 30&nbsp;дней</h1>
+    <p>PRO-версия QFWeatherPro — платная. Пробный период 30 дней отключается проверкой лицензии. Обойти её без покупки нельзя легально — ниже объясняем почему и что делать.</p>
+    <div class="cta">
+      <a class="btn primary" href="#legal">Легальные варианты</a>
+      <a class="btn ghost" href="#faq">Частые вопросы</a>
+    </div>
+  </header>
+
+  <div class="notice">
+    <strong>Коротко:</strong> сделать так, «чтобы работало без лицензии» — значит взломать защиту приложения. Я не делаю взломы, кряки, патчи APK и обход проверок лицензии: это нарушает права разработчика и часто приводит к вирусам и блокировкам. Ниже — безопасные альтернативы.
+  </div>
+
+  <div class="grid">
+    <section class="card">
+      <span class="pill warn">30 дней</span>
+      <h2>Что происходит</h2>
+      <p>После установки PRO-приложение запускает триальный таймер. По истечении ~30 дней функции PRO блокируются до ввода лицензионного ключа или покупки через магазин.</p>
+      <p>Переустановка, смена даты и «чистка данных» обычно не помогают: ключ и ID устройства проверяются на сервере.</p>
+    </section>
+    <section class="card">
+      <span class="pill info">Риски взлома</span>
+      <h2>Почему не стоит искать кряк</h2>
+      <ul>
+        <li>Модифицированные APK — частый источник троянов и подписок.</li>
+        <li>Нарушение лицензии и условий магазина приложений.</li>
+        <li>Потеря обновлений, виджетов и точности прогноза.</li>
+        <li>Блокировка PRO-функций после проверки на сервере.</li>
+      </ul>
+    </section>
+    <section class="card" id="legal">
+      <span class="pill ok">Легально</span>
+      <h2>Что можно сделать</h2>
+      <ol>
+        <li><strong>Купить лицензию</strong> у разработчика — разовый платёж снимает лимит.</li>
+        <li><strong>Написать разработчику</strong> — скидки, семейная лицензия, промокод.</li>
+        <li><strong>Бесплатные аналоги:</strong> Overdrop, Meteoblue, Yr.no, Windy (базовые функции).</li>
+        <li><strong>Проверить бесплатную версию</strong> QFWeather — часто её достаточно.</li>
+      </ol>
+    </section>
+  </div>
+
+  <h2 id="activate">Как активировать PRO легально</h2>
+  <ol class="steps">
+    <li>Откройте <strong>Настройки → О приложении → Лицензия</strong> в QFWeatherPro.</li>
+    <li>Нажмите <strong>«Купить»</strong> или введите ключ вида <code>QF-PRO-XXXX-XXXX</code> из письма магазина.</li>
+    <li>Подключите интернет для первичной проверки и перезапустите приложение.</li>
+    <li>Сохраните чек и ключ — они понадобятся при смене телефона.</li>
+  </ol>
+
+  <section class="card" id="faq">
+    <h2>Частые вопросы</h2>
+    <p><strong>APK с пометкой PRO уже «леченый»?</strong><br>Нет. Пометка PRO обычно означает, что это платная сборка, а не взломанная. Проверка лицензии остаётся.</p>
+    <p><strong>Сброс пробного периода возможен?</strong><br>Только покупкой или новым лицензионным ключом. Сторонние «ресеттеры» — это вмешательство в защиту.</p>
+    <p><strong>Есть ли бесплатный точный прогноз?</strong><br>Да: модели GFS / ECMWF доступны в бесплатных приложениях Yr, Meteoblue, Windy.</p>
+  </section>
+
+  <footer>
+    Эта страница не распространяет APK и не предоставляет ключи. QFWeatherPro — товарный знак соответствующего разработчика. По вопросам лицензии обращайтесь к продавцу приложения.
+    <br>Статус страницы: <code>dist/index.html</code> • статическая сборка • порт <code>3000</code>.
+  </footer>
+</div>
+</body>
+</html>
